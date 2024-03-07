@@ -123,4 +123,11 @@ function stringaInvertita(testo) {
 
     //jsnack 5
 
-    
+    function creaArray(array, a, b) {
+        // Verifica se "a" e "b" sono valori validi
+        if (a > b || b >= array.length) {
+          return false; 
+       }
+
+
+    }    
