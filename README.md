@@ -17,7 +17,7 @@ Infine stampa separatamente quanto pesano i due gruppi di zucchine.
 ### JSnack 3
 Scrivi una funzione che accetti una stringa come argomento e la ritorni girata (es. Ciao -> oaiC)
 #### Svolgimento
-1. 
+1. Creo una funzione utilizzando split che mi divite i caratteri della stringa, reverse inverte l'ordine degli elementi dell'array e join me li unisce creando una nuova stringa. 
 ### JSnack 4
 Scrivi una funzione che fonda due array (aventi lo stesso numero di elementi) prendendo alternativamente gli elementi da uno e dall’altro
 es. [a,b,c], [1,2,3] → [a,1,b,2,c,3].

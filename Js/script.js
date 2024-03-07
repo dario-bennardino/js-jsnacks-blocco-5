@@ -82,3 +82,19 @@ console.log(pesoZucchinePiccole);
 
 
 //JSNACK 3
+
+function stringaInvertita(testo) {
+    return testo.split('').reverse().join('');
+  }
+
+    const stringaDaInvertire = 'Ciao';
+
+    const output = stringaInvertita(stringaDaInvertire);
+
+    console.log(output);
+
+
+
+   //JSNACK 4
+
+   
