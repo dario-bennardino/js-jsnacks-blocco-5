@@ -97,4 +97,30 @@ function stringaInvertita(testo) {
 
    //JSNACK 4
 
-   
+    const arrayUno = ['a', 'b', 'c'];
+    const arrayDue = [1, 2, 3];
+
+    fusioneDueArray(arrayUno, arrayDue);
+
+    const risultato = fusioneDueArray(arrayUno, arrayDue);
+
+    console.log(risultato);
+
+
+    //Funzione
+
+    function fusioneDueArray(arrayUno, arrayDue){
+        const arrayFuso = [];
+
+        for (let i = 0; i < arrayUno.length; i++ ){
+            arrayFuso.push(arrayUno[i], arrayDue[i]);
+        }
+
+        return arrayFuso;
+    }
+
+
+
+    //jsnack 5
+
+    
