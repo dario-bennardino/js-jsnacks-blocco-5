@@ -12,7 +12,8 @@ Crea 10 oggetti che rappresentano una zucchina.
 Dividi in due array separati le zucchine che misurano meno o più di 15cm.
 Infine stampa separatamente quanto pesano i due gruppi di zucchine.
 #### Svolgimento
-1. 
+1. Utilizzo filter per creare due arrey separati uno con zucchine maggiori di 15 ed un altro con minori di 15. Creo due costanti che conterranno le zucchine secondo i miei parametri.
+2. Calcolo il peso dei due nuovi array utilizzando reduce come nel primo snack.
 ### JSnack 3
 Scrivi una funzione che accetti una stringa come argomento e la ritorni girata (es. Ciao -> oaiC)
 #### Svolgimento

@@ -1,4 +1,4 @@
-//JSnack 1
+//JSNACK 1
 
 const zucchine = [
     {
@@ -58,4 +58,27 @@ const pesoTotale = zucchine.reduce((somma, zucchina) => somma + zucchina.peso, 0
 
 console.log(pesoTotale);
 
-//JSnack 2
+
+//JSNACK 2
+//Utilizzo filter per creare due array >15 e <15
+
+const zucchineGrandi = zucchine.filter(zucchina=>zucchina.lunghezza > 15);
+
+const zucchinePiccole = zucchine.filter(zucchina=>zucchina.lunghezza < 15);
+
+console.log(zucchineGrandi);
+console.log(zucchinePiccole);
+
+//stampo peso dei due nuovi array
+
+const pesoZucchineGrandi = zucchineGrandi.reduce((somma, zucchina) => somma + zucchina.peso, 0);
+
+console.log(pesoZucchineGrandi);
+
+const pesoZucchinePiccole = zucchinePiccole.reduce((somma, zucchina) => somma + zucchina.peso, 0);
+
+console.log(pesoZucchinePiccole);
+
+
+
+//JSNACK 3
