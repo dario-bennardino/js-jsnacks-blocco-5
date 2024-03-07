@@ -121,7 +121,23 @@ function stringaInvertita(testo) {
 
 
 
-    //jsnack 5
+    //jSNACK 5
+ 
+
+    const arrayProva = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+    const a = 2;
+
+    const b = 5;
+
+    creaArray(arrayProva, a, b);
+
+    const risultatoSnackCinque = creaArray(arrayProva, a, b);
+
+    console.log(risultatoSnackCinque);
+
+    
+    //Funzione
 
     function creaArray(array, a, b) {
         // Verifica se "a" e "b" sono valori validi
@@ -129,5 +145,11 @@ function stringaInvertita(testo) {
           return false; 
        }
 
+       const nuovoArray = array.slice(a, b + 1);
+       
+       return nuovoArray;
 
-    }    
+    }   
+
+    //da aggiustare
+

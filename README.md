@@ -33,4 +33,6 @@ un array e due numeri (“a” più piccolo di “b” e “b” grande al massi
 La funzione ritornerà un nuovo array con i valori che hanno la posizione compresa tra “a” e “b”
 #### Svolgimento
 1. Creo una funzione che mi restituirà false se a >= b oppure b >= della lunghezza dell'array
-2.  
+2. Utilizzo slice per crearmi una copia dell'array compreso tra i valori a e b
+3. mi creo un array di prova e due costanti a e b.
+4. Chiamo la funzione creata e fornisco come argomento l'array e le costanti a e b.
