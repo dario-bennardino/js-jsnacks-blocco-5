@@ -5,7 +5,8 @@ JSnack
 Crea un array di 10 oggetti che rappresentano una zucchina, indicando per ognuna varietà, peso e lunghezza.
 Calcola quanto pesano tutte le zucchine.<br>
 #### Svolgimento
-1. 
+1. creo un array contenente di oggetti con ognuno avente 3 valori varietà, peso, lunghezza.
+2. calcolo il peso totale utilizzando il metodo reduce sugli elementi dell'array.
 ### JSnack 2
 Crea 10 oggetti che rappresentano una zucchina.
 Dividi in due array separati le zucchine che misurano meno o più di 15cm.
